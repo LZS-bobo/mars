@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		873EC5371E45B1890063614C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 873EC5361E45B1890063614C /* main.m */; };
+		873EC53A1E45B1890063614C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 873EC5391E45B1890063614C /* AppDelegate.m */; };
+		873EC53D1E45B1890063614C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 873EC53C1E45B1890063614C /* ViewController.m */; };
+		873EC5401E45B1890063614C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873EC53E1E45B1890063614C /* Main.storyboard */; };
+		873EC5421E45B1890063614C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 873EC5411E45B1890063614C /* Assets.xcassets */; };
+		873EC5451E45B1890063614C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873EC5431E45B1890063614C /* LaunchScreen.storyboard */; };
+		873EC5501E45B1890063614C /* mars______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 873EC54F1E45B1890063614C /* mars______Tests.m */; };
+		873EC55B1E45B1890063614C /* mars______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 873EC55A1E45B1890063614C /* mars______UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		873EC54C1E45B1890063614C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 873EC52A1E45B1890063614C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 873EC5311E45B1890063614C;
+			remoteInfo = "mars选择城市动画";
+		};
+		873EC5571E45B1890063614C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 873EC52A1E45B1890063614C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 873EC5311E45B1890063614C;
+			remoteInfo = "mars选择城市动画";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		873EC5321E45B1890063614C /* mars选择城市动画.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "mars选择城市动画.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		873EC5361E45B1890063614C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		873EC5381E45B1890063614C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		873EC5391E45B1890063614C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		873EC53B1E45B1890063614C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		873EC53C1E45B1890063614C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		873EC53F1E45B1890063614C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		873EC5411E45B1890063614C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		873EC5441E45B1890063614C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		873EC5461E45B1890063614C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		873EC54B1E45B1890063614C /* mars选择城市动画Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "mars选择城市动画Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		873EC54F1E45B1890063614C /* mars______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "mars______Tests.m"; sourceTree = "<group>"; };
+		873EC5511E45B1890063614C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		873EC5561E45B1890063614C /* mars选择城市动画UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "mars选择城市动画UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		873EC55A1E45B1890063614C /* mars______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "mars______UITests.m"; sourceTree = "<group>"; };
+		873EC55C1E45B1890063614C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		873EC52F1E45B1890063614C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		873EC5481E45B1890063614C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		873EC5531E45B1890063614C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		873EC5291E45B1890063614C = {
+			isa = PBXGroup;
+			children = (
+				873EC5341E45B1890063614C /* mars选择城市动画 */,
+				873EC54E1E45B1890063614C /* mars选择城市动画Tests */,
+				873EC5591E45B1890063614C /* mars选择城市动画UITests */,
+				873EC5331E45B1890063614C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		873EC5331E45B1890063614C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				873EC5321E45B1890063614C /* mars选择城市动画.app */,
+				873EC54B1E45B1890063614C /* mars选择城市动画Tests.xctest */,
+				873EC5561E45B1890063614C /* mars选择城市动画UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		873EC5341E45B1890063614C /* mars选择城市动画 */ = {
+			isa = PBXGroup;
+			children = (
+				873EC5381E45B1890063614C /* AppDelegate.h */,
+				873EC5391E45B1890063614C /* AppDelegate.m */,
+				873EC53B1E45B1890063614C /* ViewController.h */,
+				873EC53C1E45B1890063614C /* ViewController.m */,
+				873EC53E1E45B1890063614C /* Main.storyboard */,
+				873EC5411E45B1890063614C /* Assets.xcassets */,
+				873EC5431E45B1890063614C /* LaunchScreen.storyboard */,
+				873EC5461E45B1890063614C /* Info.plist */,
+				873EC5351E45B1890063614C /* Supporting Files */,
+			);
+			path = "mars选择城市动画";
+			sourceTree = "<group>";
+		};
+		873EC5351E45B1890063614C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				873EC5361E45B1890063614C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		873EC54E1E45B1890063614C /* mars选择城市动画Tests */ = {
+			isa = PBXGroup;
+			children = (
+				873EC54F1E45B1890063614C /* mars______Tests.m */,
+				873EC5511E45B1890063614C /* Info.plist */,
+			);
+			path = "mars选择城市动画Tests";
+			sourceTree = "<group>";
+		};
+		873EC5591E45B1890063614C /* mars选择城市动画UITests */ = {
+			isa = PBXGroup;
+			children = (
+				873EC55A1E45B1890063614C /* mars______UITests.m */,
+				873EC55C1E45B1890063614C /* Info.plist */,
+			);
+			path = "mars选择城市动画UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		873EC5311E45B1890063614C /* mars选择城市动画 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 873EC55F1E45B1890063614C /* Build configuration list for PBXNativeTarget "mars选择城市动画" */;
+			buildPhases = (
+				873EC52E1E45B1890063614C /* Sources */,
+				873EC52F1E45B1890063614C /* Frameworks */,
+				873EC5301E45B1890063614C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "mars选择城市动画";
+			productName = "mars选择城市动画";
+			productReference = 873EC5321E45B1890063614C /* mars选择城市动画.app */;
+			productType = "com.apple.product-type.application";
+		};
+		873EC54A1E45B1890063614C /* mars选择城市动画Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 873EC5621E45B1890063614C /* Build configuration list for PBXNativeTarget "mars选择城市动画Tests" */;
+			buildPhases = (
+				873EC5471E45B1890063614C /* Sources */,
+				873EC5481E45B1890063614C /* Frameworks */,
+				873EC5491E45B1890063614C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				873EC54D1E45B1890063614C /* PBXTargetDependency */,
+			);
+			name = "mars选择城市动画Tests";
+			productName = "mars选择城市动画Tests";
+			productReference = 873EC54B1E45B1890063614C /* mars选择城市动画Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		873EC5551E45B1890063614C /* mars选择城市动画UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 873EC5651E45B1890063614C /* Build configuration list for PBXNativeTarget "mars选择城市动画UITests" */;
+			buildPhases = (
+				873EC5521E45B1890063614C /* Sources */,
+				873EC5531E45B1890063614C /* Frameworks */,
+				873EC5541E45B1890063614C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				873EC5581E45B1890063614C /* PBXTargetDependency */,
+			);
+			name = "mars选择城市动画UITests";
+			productName = "mars选择城市动画UITests";
+			productReference = 873EC5561E45B1890063614C /* mars选择城市动画UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		873EC52A1E45B1890063614C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "罗壮燊";
+				TargetAttributes = {
+					873EC5311E45B1890063614C = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					873EC54A1E45B1890063614C = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 873EC5311E45B1890063614C;
+					};
+					873EC5551E45B1890063614C = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 873EC5311E45B1890063614C;
+					};
+				};
+			};
+			buildConfigurationList = 873EC52D1E45B1890063614C /* Build configuration list for PBXProject "mars选择城市动画" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 873EC5291E45B1890063614C;
+			productRefGroup = 873EC5331E45B1890063614C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				873EC5311E45B1890063614C /* mars选择城市动画 */,
+				873EC54A1E45B1890063614C /* mars选择城市动画Tests */,
+				873EC5551E45B1890063614C /* mars选择城市动画UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		873EC5301E45B1890063614C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				873EC5451E45B1890063614C /* LaunchScreen.storyboard in Resources */,
+				873EC5421E45B1890063614C /* Assets.xcassets in Resources */,
+				873EC5401E45B1890063614C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		873EC5491E45B1890063614C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		873EC5541E45B1890063614C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		873EC52E1E45B1890063614C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				873EC53D1E45B1890063614C /* ViewController.m in Sources */,
+				873EC53A1E45B1890063614C /* AppDelegate.m in Sources */,
+				873EC5371E45B1890063614C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		873EC5471E45B1890063614C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				873EC5501E45B1890063614C /* mars______Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		873EC5521E45B1890063614C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				873EC55B1E45B1890063614C /* mars______UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		873EC54D1E45B1890063614C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 873EC5311E45B1890063614C /* mars选择城市动画 */;
+			targetProxy = 873EC54C1E45B1890063614C /* PBXContainerItemProxy */;
+		};
+		873EC5581E45B1890063614C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 873EC5311E45B1890063614C /* mars选择城市动画 */;
+			targetProxy = 873EC5571E45B1890063614C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		873EC53E1E45B1890063614C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				873EC53F1E45B1890063614C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		873EC5431E45B1890063614C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				873EC5441E45B1890063614C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		873EC55D1E45B1890063614C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		873EC55E1E45B1890063614C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		873EC5601E45B1890063614C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "mars选择城市动画/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bobo.mars------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		873EC5611E45B1890063614C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "mars选择城市动画/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bobo.mars------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		873EC5631E45B1890063614C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "mars选择城市动画Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bobo.mars------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mars选择城市动画.app/mars选择城市动画";
+			};
+			name = Debug;
+		};
+		873EC5641E45B1890063614C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "mars选择城市动画Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bobo.mars------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mars选择城市动画.app/mars选择城市动画";
+			};
+			name = Release;
+		};
+		873EC5661E45B1890063614C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "mars选择城市动画UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bobo.mars------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "mars选择城市动画";
+			};
+			name = Debug;
+		};
+		873EC5671E45B1890063614C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "mars选择城市动画UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bobo.mars------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "mars选择城市动画";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		873EC52D1E45B1890063614C /* Build configuration list for PBXProject "mars选择城市动画" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				873EC55D1E45B1890063614C /* Debug */,
+				873EC55E1E45B1890063614C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		873EC55F1E45B1890063614C /* Build configuration list for PBXNativeTarget "mars选择城市动画" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				873EC5601E45B1890063614C /* Debug */,
+				873EC5611E45B1890063614C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		873EC5621E45B1890063614C /* Build configuration list for PBXNativeTarget "mars选择城市动画Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				873EC5631E45B1890063614C /* Debug */,
+				873EC5641E45B1890063614C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		873EC5651E45B1890063614C /* Build configuration list for PBXNativeTarget "mars选择城市动画UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				873EC5661E45B1890063614C /* Debug */,
+				873EC5671E45B1890063614C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 873EC52A1E45B1890063614C /* Project object */;
+}
