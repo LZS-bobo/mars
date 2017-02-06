@@ -18,6 +18,7 @@
 		873EC56A1E45B44C0063614C /* SBCityPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 873EC5691E45B44C0063614C /* SBCityPickerController.m */; };
 		873EC56D1E45C06F0063614C /* SBTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 873EC56C1E45C06F0063614C /* SBTableViewCell.m */; };
 		87E924731E48183B0031C885 /* SBCustomTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 87E924721E48183B0031C885 /* SBCustomTransition.m */; };
+		87E924761E4828820031C885 /* 2017-02-06 11.42.37.gif in Resources */ = {isa = PBXBuildFile; fileRef = 87E924751E4828820031C885 /* 2017-02-06 11.42.37.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		87E924711E48183B0031C885 /* SBCustomTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBCustomTransition.h; sourceTree = "<group>"; };
 		87E924721E48183B0031C885 /* SBCustomTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBCustomTransition.m; sourceTree = "<group>"; };
 		87E924741E4820CB0031C885 /* README.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = README.h; sourceTree = "<group>"; };
+		87E924751E4828820031C885 /* 2017-02-06 11.42.37.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "2017-02-06 11.42.37.gif"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +129,7 @@
 				87E924711E48183B0031C885 /* SBCustomTransition.h */,
 				87E924721E48183B0031C885 /* SBCustomTransition.m */,
 				87E924741E4820CB0031C885 /* README.h */,
+				87E924751E4828820031C885 /* 2017-02-06 11.42.37.gif */,
 			);
 			path = "mars选择城市动画";
 			sourceTree = "<group>";
@@ -265,6 +268,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				873EC5451E45B1890063614C /* LaunchScreen.storyboard in Resources */,
+				87E924761E4828820031C885 /* 2017-02-06 11.42.37.gif in Resources */,
 				873EC5421E45B1890063614C /* Assets.xcassets in Resources */,
 				873EC5401E45B1890063614C /* Main.storyboard in Resources */,
 			);
