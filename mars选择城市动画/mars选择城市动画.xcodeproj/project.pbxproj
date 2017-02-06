@@ -60,6 +60,7 @@
 		873EC56C1E45C06F0063614C /* SBTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBTableViewCell.m; sourceTree = "<group>"; };
 		87E924711E48183B0031C885 /* SBCustomTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBCustomTransition.h; sourceTree = "<group>"; };
 		87E924721E48183B0031C885 /* SBCustomTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBCustomTransition.m; sourceTree = "<group>"; };
+		87E924741E4820CB0031C885 /* README.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = README.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +126,7 @@
 				873EC56C1E45C06F0063614C /* SBTableViewCell.m */,
 				87E924711E48183B0031C885 /* SBCustomTransition.h */,
 				87E924721E48183B0031C885 /* SBCustomTransition.m */,
+				87E924741E4820CB0031C885 /* README.h */,
 			);
 			path = "mars选择城市动画";
 			sourceTree = "<group>";
