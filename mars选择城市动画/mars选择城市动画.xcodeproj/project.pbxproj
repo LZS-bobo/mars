@@ -15,6 +15,10 @@
 		873EC5451E45B1890063614C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873EC5431E45B1890063614C /* LaunchScreen.storyboard */; };
 		873EC5501E45B1890063614C /* mars______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 873EC54F1E45B1890063614C /* mars______Tests.m */; };
 		873EC55B1E45B1890063614C /* mars______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 873EC55A1E45B1890063614C /* mars______UITests.m */; };
+		873EC56A1E45B44C0063614C /* SBCityPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 873EC5691E45B44C0063614C /* SBCityPickerController.m */; };
+		873EC56D1E45C06F0063614C /* SBTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 873EC56C1E45C06F0063614C /* SBTableViewCell.m */; };
+		873EC5701E45C5090063614C /* LZSCustomTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 873EC56F1E45C5090063614C /* LZSCustomTransition.m */; };
+		87E924731E48183B0031C885 /* SBCustomTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 87E924721E48183B0031C885 /* SBCustomTransition.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,14 @@
 		873EC5561E45B1890063614C /* mars选择城市动画UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "mars选择城市动画UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		873EC55A1E45B1890063614C /* mars______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "mars______UITests.m"; sourceTree = "<group>"; };
 		873EC55C1E45B1890063614C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		873EC5681E45B44C0063614C /* SBCityPickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBCityPickerController.h; sourceTree = "<group>"; };
+		873EC5691E45B44C0063614C /* SBCityPickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBCityPickerController.m; sourceTree = "<group>"; };
+		873EC56B1E45C06F0063614C /* SBTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBTableViewCell.h; sourceTree = "<group>"; };
+		873EC56C1E45C06F0063614C /* SBTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBTableViewCell.m; sourceTree = "<group>"; };
+		873EC56E1E45C5090063614C /* LZSCustomTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZSCustomTransition.h; sourceTree = "<group>"; };
+		873EC56F1E45C5090063614C /* LZSCustomTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZSCustomTransition.m; sourceTree = "<group>"; };
+		87E924711E48183B0031C885 /* SBCustomTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBCustomTransition.h; sourceTree = "<group>"; };
+		87E924721E48183B0031C885 /* SBCustomTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBCustomTransition.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +122,14 @@
 				873EC5431E45B1890063614C /* LaunchScreen.storyboard */,
 				873EC5461E45B1890063614C /* Info.plist */,
 				873EC5351E45B1890063614C /* Supporting Files */,
+				873EC5681E45B44C0063614C /* SBCityPickerController.h */,
+				873EC5691E45B44C0063614C /* SBCityPickerController.m */,
+				873EC56B1E45C06F0063614C /* SBTableViewCell.h */,
+				873EC56C1E45C06F0063614C /* SBTableViewCell.m */,
+				873EC56E1E45C5090063614C /* LZSCustomTransition.h */,
+				873EC56F1E45C5090063614C /* LZSCustomTransition.m */,
+				87E924711E48183B0031C885 /* SBCustomTransition.h */,
+				87E924721E48183B0031C885 /* SBCustomTransition.m */,
 			);
 			path = "mars选择城市动画";
 			sourceTree = "<group>";
@@ -207,6 +227,7 @@
 				TargetAttributes = {
 					873EC5311E45B1890063614C = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = HP5PJWLP53;
 						ProvisioningStyle = Automatic;
 					};
 					873EC54A1E45B1890063614C = {
@@ -276,6 +297,10 @@
 				873EC53D1E45B1890063614C /* ViewController.m in Sources */,
 				873EC53A1E45B1890063614C /* AppDelegate.m in Sources */,
 				873EC5371E45B1890063614C /* main.m in Sources */,
+				87E924731E48183B0031C885 /* SBCustomTransition.m in Sources */,
+				873EC5701E45C5090063614C /* LZSCustomTransition.m in Sources */,
+				873EC56A1E45B44C0063614C /* SBCityPickerController.m in Sources */,
+				873EC56D1E45C06F0063614C /* SBTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,6 +449,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = HP5PJWLP53;
 				INFOPLIST_FILE = "mars选择城市动画/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.bobo.mars------";
@@ -435,6 +461,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = HP5PJWLP53;
 				INFOPLIST_FILE = "mars选择城市动画/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.bobo.mars------";
@@ -507,6 +534,7 @@
 				873EC5611E45B1890063614C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		873EC5621E45B1890063614C /* Build configuration list for PBXNativeTarget "mars选择城市动画Tests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +543,7 @@
 				873EC5641E45B1890063614C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		873EC5651E45B1890063614C /* Build configuration list for PBXNativeTarget "mars选择城市动画UITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +552,7 @@
 				873EC5671E45B1890063614C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

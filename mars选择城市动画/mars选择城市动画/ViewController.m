@@ -14,15 +14,32 @@
 
 @implementation ViewController
 
+
+
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    self.view.backgroundColor = [UIColor whiteColor];
+    
+    UIImageView *imageView = [[UIImageView alloc] init];
+    imageView.contentMode = UIViewContentModeCenter;
+    imageView.frame = self.view.frame;
+    imageView.image = self.image;
+    imageView.clipsToBounds = YES;
+    imageView.layer.masksToBounds = YES;
+    
+    UIButton *backBtn = [UIButton buttonWithType:UIButtonTypeSystem];
+    [backBtn setTitle:@"选择" forState:UIControlStateNormal];
+    backBtn.frame = CGRectMake(0, 20, 60, 40);
+    [backBtn addTarget:self action:@selector(backBtnClick) forControlEvents:UIControlEventTouchUpInside];
+    
+    [self.view addSubview:imageView];
+    [self.view addSubview:backBtn];
 }
 
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void)backBtnClick
+{
+    [self.navigationController popViewControllerAnimated:YES];
 }
 
 

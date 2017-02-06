@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  SBTableViewCell.h
 //  mars选择城市动画
 //
 //  Created by 罗壮燊 on 2017/2/4.
@@ -8,11 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
-
-@property (strong, nonatomic) UIImage *image;
-
+@interface SBTableViewCell : UITableViewCell
 
 @end
-
