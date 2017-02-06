@@ -10,7 +10,7 @@
 #import "ViewController.h"
 
 #import "SBTableViewCell.h"
-#import "LZSCustomTransition.h"
+#import "SBCustomTransition.h"
 
 
 @interface SBCityPickerController ()<UINavigationControllerDelegate>
@@ -41,9 +41,9 @@
                                                  toViewController:(UIViewController *)toVC
 {
     if (operation == UINavigationControllerOperationPush) {
-        return [[LZSPushTransition alloc] init];
+        return [[SBPushTransition alloc] init];
     }else if (operation == UINavigationControllerOperationPop){
-        return [[LZSPopTransition alloc] init];
+        return [[SBPopTransition alloc] init];
     }
     return nil;
 }

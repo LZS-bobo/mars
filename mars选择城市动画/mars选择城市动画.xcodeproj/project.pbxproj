@@ -17,7 +17,6 @@
 		873EC55B1E45B1890063614C /* mars______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 873EC55A1E45B1890063614C /* mars______UITests.m */; };
 		873EC56A1E45B44C0063614C /* SBCityPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 873EC5691E45B44C0063614C /* SBCityPickerController.m */; };
 		873EC56D1E45C06F0063614C /* SBTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 873EC56C1E45C06F0063614C /* SBTableViewCell.m */; };
-		873EC5701E45C5090063614C /* LZSCustomTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 873EC56F1E45C5090063614C /* LZSCustomTransition.m */; };
 		87E924731E48183B0031C885 /* SBCustomTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 87E924721E48183B0031C885 /* SBCustomTransition.m */; };
 /* End PBXBuildFile section */
 
@@ -59,8 +58,6 @@
 		873EC5691E45B44C0063614C /* SBCityPickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBCityPickerController.m; sourceTree = "<group>"; };
 		873EC56B1E45C06F0063614C /* SBTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBTableViewCell.h; sourceTree = "<group>"; };
 		873EC56C1E45C06F0063614C /* SBTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBTableViewCell.m; sourceTree = "<group>"; };
-		873EC56E1E45C5090063614C /* LZSCustomTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZSCustomTransition.h; sourceTree = "<group>"; };
-		873EC56F1E45C5090063614C /* LZSCustomTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZSCustomTransition.m; sourceTree = "<group>"; };
 		87E924711E48183B0031C885 /* SBCustomTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBCustomTransition.h; sourceTree = "<group>"; };
 		87E924721E48183B0031C885 /* SBCustomTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBCustomTransition.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -126,8 +123,6 @@
 				873EC5691E45B44C0063614C /* SBCityPickerController.m */,
 				873EC56B1E45C06F0063614C /* SBTableViewCell.h */,
 				873EC56C1E45C06F0063614C /* SBTableViewCell.m */,
-				873EC56E1E45C5090063614C /* LZSCustomTransition.h */,
-				873EC56F1E45C5090063614C /* LZSCustomTransition.m */,
 				87E924711E48183B0031C885 /* SBCustomTransition.h */,
 				87E924721E48183B0031C885 /* SBCustomTransition.m */,
 			);
@@ -298,7 +293,6 @@
 				873EC53A1E45B1890063614C /* AppDelegate.m in Sources */,
 				873EC5371E45B1890063614C /* main.m in Sources */,
 				87E924731E48183B0031C885 /* SBCustomTransition.m in Sources */,
-				873EC5701E45C5090063614C /* LZSCustomTransition.m in Sources */,
 				873EC56A1E45B44C0063614C /* SBCityPickerController.m in Sources */,
 				873EC56D1E45C06F0063614C /* SBTableViewCell.m in Sources */,
 			);
